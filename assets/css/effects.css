@@ -1,0 +1,98 @@
+/* ========================== ANIMATIONS ========================== */
+/* ======== Social - Side ======= */
+@keyframes discordRotate {
+  0% {
+    transform: rotate(0deg);
+  }
+  25% {
+    transform: rotate(-20deg);
+  }
+  50% {
+    transform: rotate(20deg);
+  }
+  75% {
+    transform: rotate(-10deg);
+  }
+  100% {
+    transform: rotate(0deg);
+  }
+}
+@keyframes flyUp {
+  0% {
+    transform: translateY(0) rotate(0deg);
+  }
+  30% {
+    transform: translateY(-1px) rotate(-20deg);
+  }
+  60% {
+    transform: translateY(-2px) rotate(20deg);
+  }
+  100% {
+    transform: translateY(-1px) rotate(0deg);
+  }
+}
+@keyframes Clicking {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(0.95);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+/* ======== Loader - Side ======= */
+/* @keyframes pulsA {
+  0% {
+    box-shadow: inset 0 0 0 1.7rem #fff;
+    opacity: 1;
+  }
+  50%, 100% {
+    box-shadow: inset 0 0 0 0 #fff;
+    opacity: 0;
+  }
+}
+@keyframes pulsB {
+  0%, 50% {
+    box-shadow: 0 0 0 0 #fff;
+    opacity: 0;
+  }
+  100% {
+    box-shadow: 0 0 0 1.7rem #fff;
+    opacity: 1;
+  }
+} */
+/* ========================== PRE-LOADER ========================== */
+/* .Loader {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  max-width: 14.6rem;
+  margin-top: 7.3rem;
+  margin-bottom: 7.3rem;
+}
+.Loader:before, .Loader:after {
+  content: "";
+  position: absolute;
+  border-radius: 50%;
+  animation-duration: 1.8s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+  filter: drop-shadow(0 0 0.7555555556rem rgba(255, 255, 255, 0.75));
+}
+.Loader:before {
+  width: 100%;
+  padding-bottom: 100%;
+  box-shadow: inset 0 0 0 1.7rem #fff;
+  animation-name: pulsA;
+}
+.Loader:after {
+  width: calc(100% - 1.7rem*2);
+  padding-bottom: calc(100% - 1.7rem*2);
+  box-shadow: 0 0 0 0 #fff;
+  animation-name: pulsB;
+} */
+
